@@ -23,8 +23,8 @@ disqusShortname = "yourdiscussshortname"
     keywords = "blog,developer,personal"
     avatarurl = "images/my-avatar.jpg"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    favicon_32 = "/images/favicon.svg"
+    favicon_16 = "/images/favicon.svg"
 
     footercontent = "Google Play および Google Play ロゴは、Google LLC の商標です。"
 
