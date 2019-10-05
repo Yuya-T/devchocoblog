@@ -21,7 +21,7 @@ disqusShortname = "yourdiscussshortname"
     info = "Android エンジニア"
     description = "でぶちょこの技術ブログ"
     keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/my-avatar.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
