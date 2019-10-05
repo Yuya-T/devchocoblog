@@ -13,8 +13,6 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
-refLinksNotFoundURL = "/error/404.html"
-
 [params]
     author = "でぶちょこ"
     info = "Android エンジニア"
