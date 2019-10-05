@@ -13,6 +13,9 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
+[permalinks]
+    pages = ":filename"
+
 [params]
     author = "でぶちょこ"
     info = "Android エンジニア"
@@ -23,7 +26,7 @@ disqusShortname = "yourdiscussshortname"
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = ""
+    footercontent = "Google Play および Google Play ロゴは、Google LLC の商標です。"
 
     hidecredits = false
     hidecopyright = false
