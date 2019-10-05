@@ -1,0 +1,62 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+title = "でぶちょこブログ"
+theme = "coder"
+languageCode = "ja-JP"
+defaultcontentlanguage = "ja"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+refLinksNotFoundURL = "/error/404.html"
+
+[params]
+    author = "でぶちょこ"
+    info = "Android エンジニア"
+    description = "でぶちょこの技術ブログ"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/Yuya-T"
+[[params.social]]
+    name = "Play Store"
+    icon = "fab fa-google-play fa-2x"
+    weight = 1
+    url = "https://play.google.com/store/apps/developer?id=devchoco&hl=ja"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    weight = 1
+    url  = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
