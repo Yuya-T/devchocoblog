@@ -11,7 +11,6 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
 
 [permalinks]
     pages = ":filename"
@@ -36,6 +35,10 @@ disqusShortname = "yourdiscussshortname"
     math = true
     custom_css = ["css/custom.css"]
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 # Social links
 [[params.social]]
     name = "Github"
@@ -54,10 +57,18 @@ disqusShortname = "yourdiscussshortname"
     weight = 1
     url  = "/posts/"
 [[menu.main]]
+    name = "Categories"
+    weight = 2
+    url  = "/categories/"
+[[menu.main]]
+    name = "Tags"
+    weight = 2
+    url  = "/tags/"
+[[menu.main]]
     name = "Portfolio"
-    weight = 1
+    weight = 3
     url  = "/portfolio/"
 [[menu.main]]
     name = "About"
-    weight = 2
+    weight = 4
     url = "/about/"
