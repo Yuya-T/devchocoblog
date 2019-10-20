@@ -31,8 +31,7 @@ pygmentscodefencesguesssyntax = true
     hidecopyright = false
 
     rtl = false
-
-    math = true
+    
     custom_css = ["css/custom.css"]
 
 [taxonomies]
