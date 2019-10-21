@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aurora on いたちょこブログ</title>
+    <link>https://devblog-40cef.firebaseapp.com/tags/aurora/</link>
+    <description>Recent content in aurora on いたちょこブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 20 Oct 2019 18:18:37 +0900</lastBuildDate>
+    
+	<atom:link href="https://devblog-40cef.firebaseapp.com/tags/aurora/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>オーロラ</title>
+      <link>https://devblog-40cef.firebaseapp.com/archive/aurora/</link>
+      <pubDate>Sun, 20 Oct 2019 18:18:37 +0900</pubDate>
+      
+      <guid>https://devblog-40cef.firebaseapp.com/archive/aurora/</guid>
+      <description>はじめに この記事は freee 20卒内定者 季節外れのアドベントカレンダー 23日目の記事です．
+自己紹介 こんにちは． Yuya-Tです． 2020年度よりfreee株式会社でエンジニアとしてお世話になります． どうぞよろしくお願いします．
+高校から学部時代までは競歩をやっていました．
+今は大学院で情報検索の研究をしています．
+オーロラ オーロラって美しいですよね．
+テレビやインターネットでご覧になったことのある方も多いのではないでしょうか？
+そこで今回はオーロラについて調べてみました！
+オーロラはどうして発生するの？ オーロラとは，空がカーテン状に発光する現象のことです．英語では一般的に &amp;ldquo;northern lights&amp;rdquo; と呼ばれています．
+オーロラは，地球に降り注ぐ太陽風が大気中の酸素原子や窒素原子を励起させることで発生すると考えられています．
+紫や緑，赤などの色で発光しますが，これは励起される原子の種類やその高度による違いだと言われています．
+しかし，その全容はまだ解明されていません！ 分からないことがまだまだたくさんあるのです．
+オーロラはどこで見れるの？ オーロラは極地で観測されます． しかし，緯度が高ければ高いほど良いというものでもありません．
+実は「オーロラベルト」と呼ばれる，オーロラが観測されやすい地域があるのです！ それがここ！
+出典：https://auroranavi.com/aurora/where.html
+この緑の帯の中に入っている都市は，比較的オーロラが観測されやすいところです． その中でも日本からのアクセスが良く，現地ツアーなどの観測環境が整っている都市を挙げてみました．
+ アラスカ  フェアバンクス  カナダ  イエローナイフ  ノルウェー  トロムソ  スウェーデン  キルナ アビスコ  フィンランド  サーリセルカ ロヴァニエミ  アイスランド  全土（有名なのはレイキャビク）   さらに，オーロラを観測するには乗り越えなければならないハードルがあります． それは
+ 晴れていること 暗いこと  です．</description>
+    </item>
+    
+  </channel>
+</rss>

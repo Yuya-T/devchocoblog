@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="いたちょこ">
+    <meta name="description" content="いたちょこの技術ブログ">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="オーロラ"/>
+<meta name="twitter:description" content="はじめに この記事は freee 20卒内定者 季節外れのアドベントカレンダー 23日目の記事です．
+自己紹介 こんにちは． Yuya-Tです． 2020年度よりfreee株式会社でエンジニアとしてお世話になります． どうぞよろしくお願いします．
+高校から学部時代までは競歩をやっていました．
+今は大学院で情報検索の研究をしています．
+オーロラ オーロラって美しいですよね．
+テレビやインターネットでご覧になったことのある方も多いのではないでしょうか？
+そこで今回はオーロラについて調べてみました！
+オーロラはどうして発生するの？ オーロラとは，空がカーテン状に発光する現象のことです．英語では一般的に &ldquo;northern lights&rdquo; と呼ばれています．
+オーロラは，地球に降り注ぐ太陽風が大気中の酸素原子や窒素原子を励起させることで発生すると考えられています．
+紫や緑，赤などの色で発光しますが，これは励起される原子の種類やその高度による違いだと言われています．
+しかし，その全容はまだ解明されていません！ 分からないことがまだまだたくさんあるのです．
+オーロラはどこで見れるの？ オーロラは極地で観測されます． しかし，緯度が高ければ高いほど良いというものでもありません．
+実は「オーロラベルト」と呼ばれる，オーロラが観測されやすい地域があるのです！ それがここ！
+出典：https://auroranavi.com/aurora/where.html
+この緑の帯の中に入っている都市は，比較的オーロラが観測されやすいところです． その中でも日本からのアクセスが良く，現地ツアーなどの観測環境が整っている都市を挙げてみました．
+ アラスカ  フェアバンクス  カナダ  イエローナイフ  ノルウェー  トロムソ  スウェーデン  キルナ アビスコ  フィンランド  サーリセルカ ロヴァニエミ  アイスランド  全土（有名なのはレイキャビク）   さらに，オーロラを観測するには乗り越えなければならないハードルがあります． それは
+ 晴れていること 暗いこと  です．"/>
+
+    <meta property="og:title" content="オーロラ" />
+<meta property="og:description" content="はじめに この記事は freee 20卒内定者 季節外れのアドベントカレンダー 23日目の記事です．
+自己紹介 こんにちは． Yuya-Tです． 2020年度よりfreee株式会社でエンジニアとしてお世話になります． どうぞよろしくお願いします．
+高校から学部時代までは競歩をやっていました．
+今は大学院で情報検索の研究をしています．
+オーロラ オーロラって美しいですよね．
+テレビやインターネットでご覧になったことのある方も多いのではないでしょうか？
+そこで今回はオーロラについて調べてみました！
+オーロラはどうして発生するの？ オーロラとは，空がカーテン状に発光する現象のことです．英語では一般的に &ldquo;northern lights&rdquo; と呼ばれています．
+オーロラは，地球に降り注ぐ太陽風が大気中の酸素原子や窒素原子を励起させることで発生すると考えられています．
+紫や緑，赤などの色で発光しますが，これは励起される原子の種類やその高度による違いだと言われています．
+しかし，その全容はまだ解明されていません！ 分からないことがまだまだたくさんあるのです．
+オーロラはどこで見れるの？ オーロラは極地で観測されます． しかし，緯度が高ければ高いほど良いというものでもありません．
+実は「オーロラベルト」と呼ばれる，オーロラが観測されやすい地域があるのです！ それがここ！
+出典：https://auroranavi.com/aurora/where.html
+この緑の帯の中に入っている都市は，比較的オーロラが観測されやすいところです． その中でも日本からのアクセスが良く，現地ツアーなどの観測環境が整っている都市を挙げてみました．
+ アラスカ  フェアバンクス  カナダ  イエローナイフ  ノルウェー  トロムソ  スウェーデン  キルナ アビスコ  フィンランド  サーリセルカ ロヴァニエミ  アイスランド  全土（有名なのはレイキャビク）   さらに，オーロラを観測するには乗り越えなければならないハードルがあります． それは
+ 晴れていること 暗いこと  です．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://devblog-40cef.firebaseapp.com/archive/aurora/" />
+<meta property="article:published_time" content="2019-10-20T18:18:37+09:00" />
+<meta property="article:modified_time" content="2019-10-20T18:18:37+09:00" />
+
+
+    
+      <base href="https://devblog-40cef.firebaseapp.com/archive/aurora/">
+    
+    <title>
+  オーロラ · いたちょこブログ
+</title>
+
+    
+      <link rel="canonical" href="https://devblog-40cef.firebaseapp.com/archive/aurora/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://devblog-40cef.firebaseapp.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://devblog-40cef.firebaseapp.com/css/custom.css" />
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://devblog-40cef.firebaseapp.com/images/favicon.svg" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://devblog-40cef.firebaseapp.com/images/favicon.svg" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.58.3" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://devblog-40cef.firebaseapp.com/">
+      いたちょこブログ
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://devblog-40cef.firebaseapp.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://devblog-40cef.firebaseapp.com/categories/">Categories</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://devblog-40cef.firebaseapp.com/tags/">Tags</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://devblog-40cef.firebaseapp.com/portfolio/">Portfolio</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://devblog-40cef.firebaseapp.com/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>オーロラ</h1>
+    </header>
+
+    
+
+<h1 id="はじめに">はじめに</h1>
+
+<p>この記事は
+<!-- [freee 20卒内定者 季節外れのアドベントカレンダー]()  -->
+freee 20卒内定者 季節外れのアドベントカレンダー
+23日目の記事です．</p>
+
+<h2 id="自己紹介">自己紹介</h2>
+
+<p>こんにちは．
+<a href="https://github.com/Yuya-T">Yuya-T</a>です．
+2020年度よりfreee株式会社でエンジニアとしてお世話になります．
+どうぞよろしくお願いします．</p>
+
+<p>高校から学部時代までは競歩をやっていました．</p>
+
+<p>今は大学院で情報検索の研究をしています．</p>
+
+<h2 id="オーロラ">オーロラ</h2>
+
+<p>オーロラって美しいですよね．</p>
+
+<p>テレビやインターネットでご覧になったことのある方も多いのではないでしょうか？</p>
+
+<p>そこで今回はオーロラについて調べてみました！</p>
+
+<h1 id="オーロラはどうして発生するの">オーロラはどうして発生するの？</h1>
+
+<p>オーロラとは，空がカーテン状に発光する現象のことです．英語では一般的に &ldquo;northern lights&rdquo; と呼ばれています．</p>
+
+<p>オーロラは，地球に降り注ぐ太陽風が大気中の酸素原子や窒素原子を励起させることで発生すると考えられています．</p>
+
+<p>紫や緑，赤などの色で発光しますが，これは励起される原子の種類やその高度による違いだと言われています．</p>
+
+<p>しかし，その全容はまだ解明されていません！
+分からないことがまだまだたくさんあるのです．</p>
+
+<h1 id="オーロラはどこで見れるの">オーロラはどこで見れるの？</h1>
+
+<p>オーロラは極地で観測されます．
+しかし，緯度が高ければ高いほど良いというものでもありません．</p>
+
+<p>実は「オーロラベルト」と呼ばれる，オーロラが観測されやすい地域があるのです！
+それがここ！</p>
+
+<p><img src="https://devblog-40cef.firebaseapp.com/images/ovalcircle.jpg" class="screenshot" style="width:60%;height:auto;margin-right:10%;"></p>
+
+<p>出典：<a href="https://auroranavi.com/aurora/where.html">https://auroranavi.com/aurora/where.html</a></p>
+
+<p>この緑の帯の中に入っている都市は，比較的オーロラが観測されやすいところです．
+その中でも日本からのアクセスが良く，現地ツアーなどの観測環境が整っている都市を挙げてみました．</p>
+
+<ul>
+<li>アラスカ
+
+<ul>
+<li><a href="https://www.google.com/maps/place/@64.8282985,-147.8090828,11z/data=!3m1!4b1!4m5!3m4!1s0x5132454f67fd65a9:0xb3d805e009fef73a!8m2!3d64.8377778!4d-147.7163888">フェアバンクス</a></li>
+</ul></li>
+<li>カナダ
+
+<ul>
+<li><a href="https://www.google.com/maps/place/@62.4747914,-114.5494191,11z/data=!3m1!4b1!4m5!3m4!1s0x53d1f12ca34682c9:0xb4c137244371ef81!8m2!3d62.4539717!4d-114.3717887">イエローナイフ</a></li>
+</ul></li>
+<li>ノルウェー
+
+<ul>
+<li><a href="https://www.google.com/maps/place/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%83%BC+%E3%83%88%E3%83%AD%E3%83%A0%E3%82%BB%E3%83%BC/@69.6651923,18.777327,11z/data=!3m1!4b1!4m5!3m4!1s0x45c4c4526c3b71fd:0x23dca858e6ebed3!8m2!3d69.6492047!4d18.9553239">トロムソ</a></li>
+</ul></li>
+<li>スウェーデン
+
+<ul>
+<li><a href="https://www.google.com/maps/place/%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%87%E3%83%B3+%E3%82%AD%E3%83%AB%E3%83%8A/@67.853687,20.1862194,12z/data=!3m1!4b1!4m5!3m4!1s0x45d08e2ae4257c2b:0x4034506de8c8660!8m2!3d67.8557995!4d20.2252821">キルナ</a></li>
+<li><a href="https://www.google.com/maps/place/@68.3494108,18.8256561,16z/data=!3m1!4b1!4m5!3m4!1s0x45da45b5c239e841:0x4c15af5897bd2346!8m2!3d68.3495412!4d18.8312408">アビスコ</a></li>
+</ul></li>
+<li>フィンランド
+
+<ul>
+<li><a href="https://www.google.com/maps/place/99830+Saariselk%C3%A4,+%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89">サーリセルカ</a></li>
+<li><a href="https://www.google.com/maps/place/%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89+%E3%83%AD%E3%83%B4%E3%82%A1%E3%83%8B%E3%82%A8%E3%83%9F">ロヴァニエミ</a></li>
+</ul></li>
+<li>アイスランド
+
+<ul>
+<li>全土（有名なのは<a href="https://www.google.com/maps?q=%E3%83%AC%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%93%E3%82%AF&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiY1Zn-66rlAhWDF6YKHQ_VBCAQ_AUIEigB">レイキャビク</a>）</li>
+</ul></li>
+</ul>
+
+<p>さらに，オーロラを観測するには乗り越えなければならないハードルがあります．
+それは</p>
+
+<ul>
+<li>晴れていること</li>
+<li>暗いこと</li>
+</ul>
+
+<p>です．</p>
+
+<p>オーロラは雲に対して遥かに高い位置で発生します．
+そのため，雲がせっかくのオーロラを隠してしまうのです．</p>
+
+<p>また，よほど強いオーロラでない限りオーロラの光はとても弱いです．
+実はあまりにも弱い光なので，人間の目にはたいてい白い靄のようにしか見えません．
+カメラを通すことで美しい色が付いて見えるということがほとんどです．
+そのため，街の光害を避ける必要があります．
+現地ツアーでは，都市部から少し離れた暗くて開けた場所へ連れて行ってくれるので便利です．
+できることなら満月付近の時期を避け，さらに暗くすると良いでしょう．</p>
+
+<h1 id="オーロラはいつ観れるの">オーロラはいつ観れるの？</h1>
+
+<p>オーロラといえば冬の夜に見れるものというイメージの方も多いのではないでしょうか？</p>
+
+<p>それは大方正解です．
+オーロラは太陽風により発生する現象のため，昼夜関係なく発生します．
+しかし，昼間は太陽が明るすぎるため見えません．
+さらに，オーロラの発生する地域は高緯度であるため夏は白夜になってしまい観測できません．
+この条件を最も満たしているのが冬の夜なのです．
+ただし，冬の前半は雪が降ることが多くあまりおすすめできません．
+2 - 3月が一般的には晴れやすく観測率も上がります．</p>
+
+<p>ちなみに，<code>＜都市名＞ 気候</code> でGoogle検索をすると，その都市の月ごとの降雨日数が分かるので場所と時期選びにおすすめです．</p>
+
+<h2 id="秋のオーロラ">秋のオーロラ</h2>
+
+<p>実は秋にもオーロラを観れる場所があります！</p>
+
+<p>それは北米の観測スポット．
+オーロラベルトの位置する地域がヨーロッパほど高緯度ではないため，秋でも観測できる条件が整うのです．
+季節の変わり目なので降雨日数は多くなりますが，-30℃のような極寒に耐え忍ぶ必要がなくなるが一番のメリットですね．
+また，湖が凍結していないので水面に映るオーロラというような写真を撮ることもできます．
+これはこれで美しい！</p>
+
+<h1 id="オーロラを観に行こう">オーロラを観に行こう！</h1>
+
+<p>これらを踏まえてオーロラ観測スポットのおすすめはこんな感じになります．</p>
+
+<p><strong>オーロラ観測が旅行の全て：北米</strong></p>
+
+<p><strong>観光も楽しみたい or 極寒は嫌：ヨーロッパ</strong></p>
+
+<p>です．</p>
+
+<p>やはり北米のスポットは内陸部に位置するため晴れやすく観測率は高いです．
+フェアバンクスの3月の平均降雨日数は，なんと<strong>1日</strong>！
+圧倒的です．
+しかし冬は-30℃のような想像を絶する寒さになります．
+ただし，3月最終週や4月第1週は昼間はプラスの気温まで上がりますし，深夜でも-10℃程度にしかならないのでオススメです．
+実は一番良い時期かもしれません（年度終わり・始め）（仕事を休めるとは言ってない）．
+ちょうどその時期に撮影したのがこの写真．</p>
+
+<p><img src="https://devblog-40cef.firebaseapp.com/images/s_P4060231.jpg" alt="" />
+<img src="https://devblog-40cef.firebaseapp.com/images/s_P4060229.jpg" alt="" /></p>
+
+<p>どちらも2019年4月6日にフェアバンクスで撮影しました．
+2つめの写真には流れ星が写り込んでいるのですが分かりますか？</p>
+
+<p>一方ヨーロッパは，北大西洋海流の影響もあり冬でも<strong>比較的</strong>暖かいです．
+その分，雲は出やすく晴天率は下がります．
+降雨日数も北米のスポットと比較して2倍くらい多くなってしまいます．
+オーロラを観測できる確率は下がりますが，観光地も豊富なので観光も楽しみたい場合にはとても良いと思います．</p>
+
+<h2 id="オーロラ観測の裏技">オーロラ観測の裏技</h2>
+
+<p>実は冬の夜中に寒い思いをしなくても観測できることがあるのです．</p>
+
+<p>それはずばり飛行機の中！</p>
+
+<p>安定飛行中であれば雲の上を飛ぶので，天候を気にしなくていいのです．
+さらに，飛行機はとても高い位置を飛行しているのでオーロラが上ではなく横に見えたりします．
+それがこの写真．
+<img src="https://devblog-40cef.firebaseapp.com/images/s_P3150769_2.JPG" alt="" /></p>
+
+<p>これは2018年3月14日のAY77便から撮影しました．</p>
+
+<p>ポイントは2つ．</p>
+
+<ul>
+<li>夜間にオーロラベルト内を飛行する便</li>
+<li>北側の窓側席</li>
+</ul>
+
+<p>日本からの直行便でいうと，イギリスや北欧地域，アメリカ東海岸発着便ということになります．</p>
+
+<h1 id="まとめ">まとめ</h1>
+
+<p>いかがでしたか？</p>
+
+<p>今回はオーロラについて調べてみました．</p>
+
+<p>人生で一度はテレビで見るような素晴らしいオーロラを見てみたいですね！</p>
+
+<p>最後までお読みいただきありがとうございました♪</p>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Google Play および Google Play ロゴは、Google LLC の商標です。</p>
+    
+     © 2019
+    
+       · 
+       <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+
+  
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

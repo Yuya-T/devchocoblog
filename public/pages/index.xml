@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on いたちょこブログ</title>
+    <link>https://devblog-40cef.firebaseapp.com/pages/</link>
+    <description>Recent content in Pages on いたちょこブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 05 Oct 2019 20:20:34 +0900</lastBuildDate>
+    
+	<atom:link href="https://devblog-40cef.firebaseapp.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://devblog-40cef.firebaseapp.com/portfolio/</link>
+      <pubDate>Sat, 05 Oct 2019 20:20:34 +0900</pubDate>
+      
+      <guid>https://devblog-40cef.firebaseapp.com/portfolio/</guid>
+      <description>WeatherCast 気象庁の予報データを使用した天気予報アプリです．
+【アプリの特徴】
+ Material Designに準拠 3時間ごとの天気予報に対応 週間天気予報に対応 発令中の特別警報・警報・注意報を表示 地震・台風情報を表示 1時間後までの雨雲の動きをチェック 現在地の天気予報をすぐに確認  Android 6.0以上の端末に対応しています．</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://devblog-40cef.firebaseapp.com/about/</link>
+      <pubDate>Sat, 05 Oct 2019 18:20:47 +0900</pubDate>
+      
+      <guid>https://devblog-40cef.firebaseapp.com/about/</guid>
+      <description>でぶちょこ 情報検索が専門の大学院生． もうすぐ退院する予定．
+趣味で Android アプリを開発しています． iOS アプリの開発にも興味があります．
+最近 Flutter に入門しました．
+できること  Kotlin Python TypeScript Java Ruby  &amp;ndash;
+ Android Firebase AWS Lambda Chrome Extension  &amp;ndash;
+ スクレイピング  このサイトについて 日々の開発で得られた知見をアウトプットする場所．
+Android の話が中心ですが，色んな技術に興味があるので他のことも書くかもしれません．</description>
+    </item>
+    
+  </channel>
+</rss>

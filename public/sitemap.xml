@@ -3,15 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/categories/</loc>
+    <loc>https://devblog-40cef.firebaseapp.com/categories/archive/</loc>
+    <lastmod>2019-10-20T18:18:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <loc>https://devblog-40cef.firebaseapp.com/archive/</loc>
+    <lastmod>2019-10-20T18:18:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/tags/</loc>
+    <loc>https://devblog-40cef.firebaseapp.com/tags/aurora/</loc>
+    <lastmod>2019-10-20T18:18:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/categories/</loc>
+    <lastmod>2019-10-20T18:18:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/tags/</loc>
+    <lastmod>2019-10-20T18:18:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/</loc>
+    <lastmod>2019-10-20T18:18:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/archive/aurora/</loc>
+    <lastmod>2019-10-20T18:18:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/categories/chrome-extension/</loc>
+    <lastmod>2019-10-08T10:24:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/posts/</loc>
+    <lastmod>2019-10-08T10:24:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/categories/web/</loc>
+    <lastmod>2019-10-08T10:24:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/posts/chrome-extension/</loc>
+    <lastmod>2019-10-08T10:24:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/pages/</loc>
+    <lastmod>2019-10-05T20:20:34+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/portfolio/</loc>
+    <lastmod>2019-10-05T20:20:34+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devblog-40cef.firebaseapp.com/about/</loc>
+    <lastmod>2019-10-05T18:20:47+09:00</lastmod>
   </url>
   
 </urlset>
