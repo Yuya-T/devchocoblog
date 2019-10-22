@@ -1,5 +1,5 @@
-baseurl = "https://Yuya-T.github.io/"
-title = "でぶちょこブログ"
+baseurl = "https://blog.itachoco.dev/"
+title = "いたちょこブログ"
 theme = "coder"
 languageCode = "ja-JP"
 defaultcontentlanguage = "ja"
@@ -16,9 +16,9 @@ pygmentscodefencesguesssyntax = true
     pages = ":filename"
 
 [params]
-    author = "でぶちょこ"
+    author = "いたちょこ"
     info = "Android エンジニア"
-    description = "でぶちょこの技術ブログ"
+    description = "いたちょこの技術ブログ"
     keywords = "blog,developer,personal"
     avatarurl = "images/my-avatar.jpg"
 

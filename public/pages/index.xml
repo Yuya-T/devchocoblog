@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on いたちょこブログ</title>
-    <link>https://devblog-40cef.firebaseapp.com/pages/</link>
+    <link>https://blog.itachoco.dev/pages/</link>
     <description>Recent content in Pages on いたちょこブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Sat, 05 Oct 2019 20:20:34 +0900</lastBuildDate>
     
-	<atom:link href="https://devblog-40cef.firebaseapp.com/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.itachoco.dev/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Portfolio</title>
-      <link>https://devblog-40cef.firebaseapp.com/portfolio/</link>
+      <link>https://blog.itachoco.dev/portfolio/</link>
       <pubDate>Sat, 05 Oct 2019 20:20:34 +0900</pubDate>
       
-      <guid>https://devblog-40cef.firebaseapp.com/portfolio/</guid>
+      <guid>https://blog.itachoco.dev/portfolio/</guid>
       <description>WeatherCast 気象庁の予報データを使用した天気予報アプリです．
 【アプリの特徴】
  Material Designに準拠 3時間ごとの天気予報に対応 週間天気予報に対応 発令中の特別警報・警報・注意報を表示 地震・台風情報を表示 1時間後までの雨雲の動きをチェック 現在地の天気予報をすぐに確認  Android 6.0以上の端末に対応しています．</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>About</title>
-      <link>https://devblog-40cef.firebaseapp.com/about/</link>
+      <link>https://blog.itachoco.dev/about/</link>
       <pubDate>Sat, 05 Oct 2019 18:20:47 +0900</pubDate>
       
-      <guid>https://devblog-40cef.firebaseapp.com/about/</guid>
+      <guid>https://blog.itachoco.dev/about/</guid>
       <description>でぶちょこ 情報検索が専門の大学院生． もうすぐ退院する予定．
 趣味で Android アプリを開発しています． iOS アプリの開発にも興味があります．
 最近 Flutter に入門しました．
